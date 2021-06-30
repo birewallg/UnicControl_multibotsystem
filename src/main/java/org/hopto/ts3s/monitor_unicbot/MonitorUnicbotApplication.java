@@ -8,6 +8,9 @@ public class MonitorUnicbotApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MonitorUnicbotApplication.class, args);
+
+        /*BotInline botCore = new BotInline();
+        botCore.run(args);*/
     }
 
 }

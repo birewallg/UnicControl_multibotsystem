@@ -1,8 +1,11 @@
 package org.hopto.ts3s.monitor_unicbot.model;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Hashtable;
 import java.util.Map;
 
+@Service
 public class Repository {
     public static Map<String, Node> nodes = new Hashtable<>();
 
